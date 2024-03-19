@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0 100px;
+    padding: 20px;
+    /* background-color: #222; */
+    color: #ddd;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ff9800;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    color: #03a9f4;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.8;
+
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.level7-12 {
+    font-size: 25px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #45a049;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.5s ease, transform 0.5s ease;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #03a9f4;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px #03a9f4
+}
+
+
+a {
+    display: inline-block;
+    color: #ff9800;
+    text-decoration: none;
+    transition: all 0.5s ease, transform 0.5s ease;
+}
+
+a:hover {
+    text-decoration: none;
+    box-shadow: 0 0 30px 10px rgba(255, 152, 0, 0.5);
+    transform: scale(1.1);
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    filter: grayscale(70%) brightness(15%);
+}
+
+#toc {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
+}
+
+#bAct1, #bAct2, #bAct3 {
+    margin-top: 50px;
+}
+
+span {
+    color: magenta;
+    font-weight: bolder;
+}
